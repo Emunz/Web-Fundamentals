@@ -1,0 +1,64 @@
+\Users\Evan>cd Desktop
+
+\Users\Evan\Desktop>cd test
+
+C:\Users\Evan\Desktop\test>copy NUL index.html
+        1 file(s) copied.
+
+C:\Users\Evan\Desktop\test>copy NUL style.css
+        1 file(s) copied.
+
+C:\Users\Evan\Desktop\test>copy NUL commands.txt
+        1 file(s) copied.
+
+\Users\Evan\Desktop\test>copy index.html index_2.html
+        1 file(s) copied.
+
+\Users\Evan\Desktop\test>del style.css
+
+\Users\Evan\Desktop>mkdir destination
+
+C:\Users\Evan\Desktop> move .\test\index_2.html .\destination\index_2.html
+        1 file(s) moved.
+
+C:\Users\Evan\Desktop>cd test
+
+C:\Users\Evan\Desktop\test>dir
+ Volume in drive C is OS
+ Volume Serial Number is F6F3-8395
+
+ Directory of C:\Users\Evan\Desktop\test
+
+09/17/2017  04:31 PM    <DIR>          .
+09/17/2017  04:31 PM    <DIR>          ..
+09/17/2017  04:21 PM                 0 commands.txt
+09/17/2017  04:21 PM                 0 index.html
+               2 File(s)              0 bytes
+               2 Dir(s)  924,716,056,576 bytes free
+
+C:\Users\Evan\Desktop\test>
+
+C:\Users\Evan\Desktop\test>cd ..
+
+C:\Users\Evan\Desktop>cd destination
+
+C:\Users\Evan\Desktop\destination>dir
+ Volume in drive C is OS
+ Volume Serial Number is F6F3-8395
+
+ Directory of C:\Users\Evan\Desktop\destination
+
+09/17/2017  04:31 PM    <DIR>          .
+09/17/2017  04:31 PM    <DIR>          ..
+09/17/2017  04:21 PM                 0 index_2.html
+               1 File(s)              0 bytes
+               2 Dir(s)  924,716,044,288 bytes free
+
+C:\Users\Evan\Desktop\destination>
+
+C:\Users\Evan\Desktop\destination>cd ..
+
+C:\Users\Evan\Desktop>rd /s destination
+destination, Are you sure (Y/N)? Y
+
+C:\Users\Evan\Desktop>
