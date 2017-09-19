@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    width: 960px;
+    height: 1440px;
+    margin: 0 15%;
+    padding: 0;
+}
+
+#header {
+    width: 960 px;
+    height: 100px;
+    background-color: #FFF9F9;
+    border: 1px solid black;
+    font-family: 'Comic Sans', cursive;
+}
+
+#header h1, #header p {
+    display: inline-block;
+}
+
+#header h1 {
+    padding: 25px 0 0 155px;
+}
+
+#header p {
+    text-align: right;
+    padding: 25px 0 0 170px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+#container {
+    width: 960px;
+    height: 1000px;
+    background-image:
+    radial-gradient(
+        circle,
+        #8F638F,
+        #331F33
+    );
+}
+
+#profilepic {
+    width: 420px;
+    height: 280px;
+    border: 5px solid grey;
+    margin: 15px;
+    display: inline-block;
+}
+
+#aboutme {
+    width: 475px;
+    height: 290px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 15px 15px 0 0;
+    /* padding: 15px 20px; */
+}
+
+#aboutme p, #aboutme a, .projects p {
+    padding: 15px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.projects {
+    display: inline-block;
+    vertical-align: top;
+    width: 296px;
+    height: 420px;
+    margin-left: 15px;
+    text-align: justify;
+}
+
+.projectsimg {
+    width: 295px;
+    height: 170px;
+}
+
+.technologies {
+    display: inline-block;
+    vertical-align: top;
+    width: 296px;
+    height: 240px;
+    margin-left: 15px;
+}
+
+.technologies img {
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+}
+
+button {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #0B6952;
+    display: block;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px auto;
+    box-shadow: 3px 3px 5px grey;
+}
+
+button a {
+    text-decoration: none;
+    color: #ECEAEA;
+    font-weight: 700;
+}
+
+#footer {
+    width: 960px;
+    height: 100px;
+    background-color: #FFF9F9;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer p {
+    padding: 20px;
+}
+
+#footer a {
+    color: black;
+    font-style: italic;
+    vertical-align: top;
+}
+
+#footer img {
+    width: 22px;
+    height: 22px;
+}
+
+.titles {
+    background-image: 
+        linear-gradient(
+            #A8A6A6,
+            #757474,
+            #A8A6A6
+        );
+    height: 26px;
+    padding: 15px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ECEAEA;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#aboutme, .projects, .technologies {
+    background-image: 
+        linear-gradient(
+            to right,
+            #E6DAE2,
+            #DBB4DB
+        )
+}
