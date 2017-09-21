@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.wrapper {
+    width: 970px;
+    background-color: #dddfd3;
+    padding: 15px;
+    display: block;
+    margin: 0 auto;
+    font-family: monospace;
+}
+
+.header, .footer {
+    background-color: #39b0ac;
+    width: 970px;
+    height: 75px;
+}
+
+.header img {
+    width: 55px;
+    height: 55px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+}
+
+.header ul {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 30px;
+    margin-left: 45px;
+}
+
+.header li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+.header li a {
+    color: #eee;
+}
+
+.header h1 {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 32px;
+}
+
+.about, .submain {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.submain {
+    width: 675px;
+}
+
+.about, .top-row, .middle-row, .bottom-row {
+    background-color: #154044;
+}
+
+.about {
+    margin: 15px;
+    width: 250px;
+    height: 570px;
+}
+
+.about h2 {
+    margin: 15px 0 0 10px;
+    font-size: 24px;
+    font-weight: 200;
+}
+
+.about p {
+    width: 220px;
+    margin: 15px 0 0 20px;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.top-row {
+    width: 175px;
+    height: 175px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 15px 0;
+}
+
+.top-row h3, .middle-row h3, .bottom-row h3{
+    margin: 10px;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.bottom-row h3 {
+    margin-top: 15px;
+}
+
+.top-row p, .middle-row p, .bottom-row p {
+    margin: 0 20px;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+span {
+    color: #39b0ac;
+}
+
+.center-block {
+    margin: 15px 65px;
+}
+
+.middle-row {
+    width: 300px;
+    height: 165px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 15px 0;
+}
+
+.right-block {
+    margin-left: 60px
+}
+
+.bottom-row {
+    width: 670px;
+    height: 170px;
+    margin-top: 15px;
+}
+
+.main-content {
+    width: 970px;
+    height: 600px;
+    margin: 15px 0;
+    background-color: #fbe691;
+}
+
+.footer p {
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    position: relative;
+    top: 30px;
+
+}
+
+.about h2, .about p, .top-row h3, .top-row p, .middle-row h3, .middle-row p, .bottom-row h3, .bottom-row p {
+    color: #ddd;
+}
