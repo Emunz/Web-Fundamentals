@@ -1,0 +1,296 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    width: 970px;
+    display: block;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    background-image: 
+        linear-gradient(
+            to bottom, 
+            #F8F7F7,
+            white
+        );
+    padding: 0;
+    margin-top: -5px;
+}
+
+ /* --------------------------------------- HEADER ---------------------------------------*/
+
+.header {
+    width: 970px;
+    height: 140px;
+}
+
+.header img {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+}
+
+.header h1 {
+    width: 970px;
+    height: 50px;
+    font-size: 48px;
+    padding: 10px;
+    margin-left: 100px;
+    color: #454D55;
+    text-shadow: 0 0 1px #454D55;
+    font-weight: lighter;
+}
+
+span, .main h2, .big-three h2 {
+    color: #25669f;
+    text-shadow: 0 0 1px #25669f;
+}
+
+.header p {
+    width: 930px;
+    height: 40px;
+    background-image:
+        linear-gradient(
+            to bottom,
+            #25669f,
+            #5082ab,
+            #25669f
+        );
+    padding: 15px 20px;
+    font-size: 36px;
+    color: #eee;
+    text-shadow: 0 0 1px #eee;
+}
+
+/* ------------------------------------- MORE RESOURCES ----------------------------------*/
+
+.more-resources {
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    border-bottom: 1px #bbbbbb solid;
+}
+
+.more-resources h3 {
+    font-size: 16px;
+    margin: 15px 5px;
+}
+
+.more-resources p {
+    font-size: 14px;
+    margin: 0 5px 15px 5px;
+}
+
+.red {
+    color: #BD0101;
+    text-shadow: 0 0 1px #BD0101;
+}
+
+.more-resources button {
+    width: 180px;
+    height: 40px;
+    margin: 5px 10px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 15px;
+    text-shadow: 0px 0px 2px #F0F0F0;
+    box-shadow: 2px 2px 3px rgba(65, 65, 65, 0.71);
+}
+
+.more-resources button a, .advert button a {
+    color: white;
+    text-decoration: none;
+}
+
+.blue-button {
+    background-image:
+        linear-gradient(
+            to bottom,
+            #5082ab,
+            #25669f
+        );
+}
+
+.orange-button {
+    background-image:
+        linear-gradient(
+            to bottom,
+            #FCBD5F,
+            #FD9C00
+        );
+}
+
+/* ------------------------------------------CONTACT-----------------------------------------*/
+
+.contact {
+    width: 730px;
+    height: 70px;
+    margin-left: 220px;
+    border-bottom: 1px solid #bbbbbb;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact p {
+    font-size: 10px;
+    text-align: right;
+    margin-top: 7px;
+    margin-right: 10px;
+    color: grey;
+}
+
+.contact img {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 510px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #25669f;
+    text-shadow: 0 0 1px #25669f;
+    position: absolute;
+    top: 155px;
+    left: 525px;
+}
+
+.contact .home {
+    width: 25px;
+    height: 25px;
+    margin-left: 0px;
+}
+
+.contact .phone-number {
+    font-size: 24px;
+    color: #06c0df;
+    text-shadow: 0 0 2px #06c0df;
+    font-weight: 700;
+}
+
+/* -------------------------------------------MAIN-------------------------------------------*/
+
+.main {
+    width: 750px;
+    height: 500px;
+    margin-left: 220px;
+}
+
+.main p {
+    margin-top: 10px;
+}
+
+.main ul, .main ol {
+    margin-left: 40px;
+    font-size: 14px;
+}
+
+.main ul li, .main ol li, .main h2 {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.main img {
+    display: block;
+    width: 300px;
+    height: 110px;
+    margin: 0 auto;
+}
+
+.main a, .big-three p a {
+    text-decoration: none;
+    color: #06c0df;
+}
+
+/* -----------------------------------------ADVERTISEMENT------------------------------------*/
+
+.advert {
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    top: 430px;
+    background-size: 100%;
+    background-image: url('../img/ad_background.png');
+    box-shadow: 2px 2px 3px #575757;   
+    text-shadow: 0px 0px 2px white;
+}
+
+.advert p {
+    text-align: center;
+    color: #DBDADA;
+    text-shadow: 0 0 1px #DBDADA;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.advert img {
+    width: 80px;
+    height: 100px;
+    display: block;
+    margin: 5px auto;
+}
+
+.advert button {
+    width: 170px;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px #3D3D3D;
+    text-shadow: 0px 0px 1px #DBDADA;
+    color: #DBDADA;
+    display: block;
+    margin: 30px auto;
+    background-image:
+        linear-gradient(
+            to bottom,
+            #90EFFD,
+            #0AB4CE
+        )
+}
+
+
+/* ------------------------------------------ BIG THREE -------------------------------------*/
+
+.big-three {
+    width: 720px;
+    height: 120px;
+    border: 5px solid #0085e0;
+    margin-left: 220px;
+    padding: 10px;
+    box-shadow: 2px 2px 3px #A1A1A1;
+}
+
+.big-three img {
+    width: 150px;
+    height: 120px;
+    position: absolute;
+}
+
+.big-three h2, .big-three p {
+    margin-left: 175px;
+}
+
+.big-three p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* ------------------------------------ TEXT SHADOW --------------------------------- */
+
+.main, .big-three, .more-resources {
+    text-shadow: 0 0 1px black;
+}
+
+.header p {
+    text-shadow:
+}
+
+.main p a, .main li a, .big-three p a {
+    text-shadow: 0 0 1px #06c0df;
+}
