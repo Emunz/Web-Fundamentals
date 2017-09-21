@@ -1,0 +1,140 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid green; */
+}
+
+.wrapper {
+    width: 1200px;
+    height: 650px;
+    border: 1px solid black;
+    background-color: #eeeeee;
+    display: block;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+.columns {
+    margin-left: 22px;
+}
+
+.columns p {
+    color: #ff0000;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-right: 43px;
+    font-size: 14px;
+}
+
+.columns .reset {
+    margin-right: 37px;
+}
+
+.rows {
+    width: 50px;
+    margin-left: 16px;
+    position: absolute;
+}
+
+.rows p {
+    color: #ff0000;
+    text-align: center;
+    margin-bottom: 39px;
+    font-size: 14px;
+}
+
+/*-----------------------blue------------------------*/
+
+.blue {
+    width: 111px;
+    height: 400px;
+    margin-left: 85px;
+    margin-top: 31px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.blue .square, .pink .square, .yellow .square, .green .square {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5px;
+    margin-left: 1px;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+/*-------------------------pink-------------------------*/
+
+.pink {
+    width: 571px;
+    margin-top: 201px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/*------------------------yellow--------------------------*/
+
+.yellow {
+    width: 341px;
+    margin-top: 31px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/*------------------------green---------------------------*/
+
+.green {
+    width: 800px;
+    margin-left: 201px;
+    margin-top: 20px;
+
+}
+
+.NOIDS {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin-left: 100px;
+}
+
+.NOIDS p {
+    margin-top: 40px;
+    color: #ff0000;
+}
+
+
+/*-------------- design of each square ---------- */
+.square {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    text-align: center;
+}
+.square h3 {
+    color: #1913a2;
+}
+.square p {
+    font-size: 11px;
+    margin-top: 1px;
+}
+
+.blue .square {
+    background-color: #689bff;
+}
+
+.pink .square {
+    background-color: #fd9a98;
+}
+
+.yellow .square {
+    background-color: #fecb00;
+}
+
+.green .square {
+    background-color: #1fca21;
+}
+/*------------------------------------------------*/
