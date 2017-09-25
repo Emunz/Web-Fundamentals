@@ -1,0 +1,21 @@
+var myAge = 26;
+var myAddress = 1644;
+var favoriteNumber = 14;
+var negativeNumber = -1000;
+var dogName = 'Lottie';
+var birthdayMonth = 'January';
+var drinkType = 'Chocolate Milk';
+var footballSeason = true;
+var basketballSeason = false;
+var messUp = undefined;
+
+console.log('My age is: ' + myAge);
+console.log('I live at: ' + myAddress);
+console.log('My lucky number is: ' + favoriteNumber);
+console.log('Here is a negative number: ' + negativeNumber);
+console.log('My dog is named ' + dogName);
+console.log('My birthday is in ' + birthdayMonth);
+console.log('My roommate likes ' + drinkType);
+console.log('It is NFL season: ' + footballSeason);
+console.log('It is NBA season: ' + basketballSeason);
+console.log(messUp);
