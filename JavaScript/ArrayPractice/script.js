@@ -19,10 +19,11 @@ function removeNumbers(arr) {
     for(var i = 0; i < arr.length; i++) {
         if (typeof arr[i] === 'number') {
             arr.splice(i, 1);
+            i--;
         }
     }
     console.log(arr);
 }
 
-removeNumbers([9, 'happy', -12, 'birthday', false, 8, 4, 3, true, 1, 'item'])
+removeNumbers([9, 'happy', -12, 'birthday', false, 8, 9, 3, true, 1, 'item'])
 
