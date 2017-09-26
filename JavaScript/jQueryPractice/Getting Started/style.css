@@ -1,0 +1,91 @@
+
+div {
+    border-bottom: 1px solid grey;
+    width: 1000px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+button {
+    width: 75px;
+    height: 30px;
+    background-color: black;
+    color: #eee;
+    border: 1px solid #eee;
+    box-shadow: 2px 2px 2px grey;
+    border-radius: 10px;
+    text-transform: uppercase;
+    margin-top: 23px;
+}
+
+p {
+    font-size: 24px;
+}
+
+.slide-down img {
+    display: none;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -180px;
+}
+
+.slide-down .img-1 {
+    left: -200px
+}
+
+.slide-down .img-2 {
+    left: 200px;
+}
+
+.slide-up img {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -180px;
+}
+
+.slide-up .img-3 {
+    left: 200px;
+}
+
+.slide-up .img-4 {
+    left: -200px;
+}
+
+.fade-out {
+    display: none;
+}
+
+.red {
+    color: red;
+}
+.blue {
+    color: blue;
+}
+
+.before h6, .after h6, .append h6 {
+    margin: 5px 0 0 0;
+}
+
+.html img {
+    width: 120px;
+    height: 60px;
+}
+
+
+.val button {
+    width: 200px;
+    height: 50px;
+}
+
+.val input {
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 400px;
+    text-align: center;
+}
+
