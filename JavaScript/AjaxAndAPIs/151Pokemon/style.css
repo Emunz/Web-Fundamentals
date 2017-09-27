@@ -1,0 +1,19 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 1000px;
+    height: 1000px;
+    display: block;
+    margin: 0 auto;
+    background-color: #ddd;
+}
+
+img {
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+}
