@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.wrapper {
+    width: 1200px;
+    height: 1200px;
+    display: block;
+    margin: 0 auto;
+    background-color: #eee;
+}
+
+img {
+    width: 270px;
+    height: 180px;
+    margin: 13px
+}
+
+.wrapper p {
+    text-align: center;
+    font-size: 20px;
+}
+
+fieldset, legend {
+    border: 3px solid black;
+}
+
+legend {
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+fieldset {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+    padding: 30px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+fieldset h3 {
+    font-size: 22px;
+    margin-top: 15px;
+}
