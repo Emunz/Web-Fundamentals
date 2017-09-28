@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    background-image: url('bluesky.jpeg');
+    background-size: cover;
+}
+
+.topbox, .bottombox{
+    width: 300px;
+    height: 200px;
+    background-image: 
+        linear-gradient(
+            to bottom,
+            #E4F8FF,
+            skyblue
+        );
+    display: block;
+    margin: 100px auto;
+    border: 3px inset rgba(1, 1, 207, 0.56);
+}
+
+.topbox input {
+    display: block;
+    margin: 50px auto;
+}
+
+.topbox .textfield {
+    width: 200px;
+    height: 30px;
+    box-shadow: inset 1px 1px 5px #A7A7A7;
+    text-align: center;
+}
+
+.topbox .button {
+    width: 200px;
+    height: 30px;
+    text-transform: uppercase;
+    background-color: rgba(1, 1, 207, 0.56);
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px #3C3C68;
+    color: #eee;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    word-spacing: 5px;
+}
+
+.bottombox {
+    overflow: hidden;
+}
+
+.bottombox h1 {
+    text-align: center;
+    color: rgba(1, 1, 207, 0.56);
+    margin-top: 25px;
+}
+
+.bottombox p, .bottombox h3 {
+    text-align: center;
+    color: rgba(1, 1, 207, 0.56);
+    margin-top: 10px;
+}
