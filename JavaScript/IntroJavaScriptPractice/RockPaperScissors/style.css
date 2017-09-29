@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.wrapper {
+    width: 800px;
+    height: 500px;
+    display: block;
+    margin: 0 auto;
+    background-color: #ddd;
+    text-align: center;
+}
+
+.wrapper h1{
+    width: 600px;
+    display: block;
+    margin: 0 auto;
+    border-bottom: 1px solid black;
+}
+
+.wrapper button {
+    margin: 20px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    border: 1px solid #eee;
+    background-color: black;
+    color: #eee;
+    box-shadow: 2px 2px 2px grey;
+}
+
+.wrapper p {
+    font-size: 22px;
+    margin: 10px;
+}

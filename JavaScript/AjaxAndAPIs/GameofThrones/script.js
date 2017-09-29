@@ -7,7 +7,6 @@ $(document).ready(function(){
 
         var id = $(this).attr('id');
 
-
         $.get('https://anapioficeandfire.com/api/houses/' + id, function(data){
             var html_string = '';
             html_string += '<h3> House Name: </h3><p>' + data.name + '</p>'
@@ -18,12 +17,7 @@ $(document).ready(function(){
             for(var i = 0; i < data.titles.length; i++) {
                 html_string += '<p>' + data.titles[i] + '</p>'
             }
-            // html_string +=
-            // html_string +=
-            // html_string +=
-            // html_string +=
-            // html_string +=
-            // html_string +=
+    
             $('fieldset').append(html_string);
         }, 'json')
 

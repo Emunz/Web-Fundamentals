@@ -41,7 +41,7 @@ body {
     text-transform: uppercase;
     background-color: rgba(1, 1, 207, 0.56);
     border-radius: 5px;
-    box-shadow: 1px 1px 3px #3C3C68;
+    box-shadow: 1px 1px 5px #3C3C68;
     color: #eee;
     font-size: 16px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -62,4 +62,11 @@ body {
     text-align: center;
     color: rgba(1, 1, 207, 0.56);
     margin-top: 10px;
+}
+
+.bottombox h2 {
+    text-align: center;
+    color: rgba(1, 1, 207, 0.56);
+    font-size: 28px;
+    margin: 70px 30px;
 }
